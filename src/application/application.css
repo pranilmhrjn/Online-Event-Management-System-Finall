@@ -1,0 +1,71 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f0f2f5;
+}
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 15, 0, 0, 4);
+    -fx-padding: 40;
+}
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b2a4a;
+}
+.subtitle-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #777777;
+}
+.input-field {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #dee2e6;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10;
+    -fx-font-size: 13px;
+    -fx-pref-width: 300px;
+}
+.input-field:focused {
+    -fx-border-color: #1b2a4a;
+}
+.primary-btn {
+    -fx-background-color: #1b2a4a;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 38px;
+}
+.primary-btn:hover {
+    -fx-background-color: #243554;
+}
+.danger-btn {
+    -fx-background-color: #e53e3e;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-pref-height: 32px;
+}
+.danger-btn:hover {
+    -fx-background-color: #c53030;
+}
+.success-btn {
+    -fx-background-color: #38a169;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-pref-height: 32px;
+}
+.link-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #4361ee;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+}
+.success-msg { -fx-text-fill: #38a169; -fx-font-size: 13px; }
+.error-msg   { -fx-text-fill: #e53e3e; -fx-font-size: 13px; }
